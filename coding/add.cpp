@@ -10,13 +10,14 @@ int Add(int a, int b){
 // complete this
 int Add(int a, int b, int c){
     // Add your code
+    return(a+b+c);
 }
 
 int main(){
     int x,y;
     cin>>x>>y;
     cout<<"Addition: "<<Add(x,y)<<endl;
-    // int z;
-    // cin>>z;
-    // cout<<"New Addition: "<<Add(x,y,z);
+    int z;
+    cin>>z;
+    cout<<"New Addition: "<<Add(x,y,z);
 }
